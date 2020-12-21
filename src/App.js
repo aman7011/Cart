@@ -148,7 +148,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Navbar count={this.getCartCount()} />
-        <button onClick={this.addProduct} style={{ padding: 20, fontSize: 20 }}>
+        <button onClick={this.addProduct} style={{ padding: 20, fontSize: 20, borderRadius: '2%' }}>
           Add a Product
         </button>
         <Cart
